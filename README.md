@@ -1,2 +1,7 @@
-# Universal XML Mechanic
-This tool is intended for advanced automated XML editing and management. It uses a combination of proprietary batch scripting "language" + Excel files with input data, to specify rules for xml editing.
+# UXM is Universal Xml Mechanic
+This is a highly specialized tool for editing and management of XML config files for NOKIA Radio Access Network (RAN) nodes.
+
+It uses a proprietary batch scripting "language" to provide rules for editing.
+It reads input values for xml elements from standard Excel files.
+
+
