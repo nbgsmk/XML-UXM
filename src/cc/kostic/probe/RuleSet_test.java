@@ -11,7 +11,7 @@ public class RuleSet_test {
 		RuleSet pravila_onetime = ldr.loadRulesFromCSV("pravila_one_time.csv");
 
 		
-		System.out.println(" rule lists loaded" );
+		System.out.println(" rule lists loaded ok!" );
 		
 		
 		
