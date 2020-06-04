@@ -1,0 +1,32 @@
+
+			// komentar ne mora da pozinje na pocetku linije
+
+// max 1 csv polje
+// excel kolona koja sadrzi ime sajta
+siteNameColumn=SITE_NAME
+
+
+// tacno 2 csv polja
+// mogu se dodati i drugi ran atributi
+// kolona_abc ; operation
+// kolonaxyz ; version
+
+
+// tacno 3 csv polja
+// excel kolona za id sajta tj distName="SBTS-__.."
+ENBID	;	distName ; SBTS
+// excel kolona za id sledeceg elementa sajta tj distName="SBTS-*/LNBTS-__"
+// BLAbla ;	distName ; LNBTS
+
+
+
+// duzina proizvoljna
+// kolona iz excel fajla ; putanja do odgovarajuceg bts parametra
+ENBID ;  class ; SBTS ; btsProfile
+// parametri iz iste celije excela mogu se koristiti na vise mesta u comm fajlu
+SITE_NAME ; class ; SBTS ; sbtsName
+SITE_NAME ; class ; SBTS ; sbtsDescription
+
+CELL1NAME	;	class ; LNCEL ; cellName
+TAC	;	class ; LNCEL	;	tac
+

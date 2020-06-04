@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><raml xmlns="raml21.xsd" version="2.1">
+<cmData scope="all" type="actual">
+<header>
+<log action="created" appInfo="Nokia SBTS Element Manager" appVersion="SBTS16.10_ENB_A53_0300_004983_000109" dateTime="2018-02-14T11:57:07+00:00" user="WebUI"/>
+</header>
+<managedObject class="SBTS" distName="SBTS-2092" operation="create" version="SBTS16.10">
+<p name="btsProfile">LG4_2</p>
+<p name="sbtsName">BGO796_Baric_2</p>
+<list name="sbtsLocation">
+	<item>
+	<p name="location">Baric_2</p>
+	<p name="sbtsName">BGO796_Baric_2</p>
+	</item>
+	<item>
+	<p name="address">Glavna ulica</p>
+	</item>
+	<nesto name="gnf">
+		<item>
+		<p name="brzina">brzo u pm</p>
+		<p name="visina">vrh!</p>
+		</item>
+	</nesto>
+</list>
+<list name="radioModule">
+	<item>
+	<p name="location">na krovu</p>
+	</item>
+	<item>
+	<p name="address">Glavna ulica</p>
+	</item>
+</list>
+</managedObject>
+
+<managedObject class="LNCEL" distName="SBTS-2092/LNBTS-2092/LNCEL-20925" operation="create" version="FL16">
+	<p name="antennaConnector">1</p>
+	<p name="linkSelector">IBRGPRT-1</p>
+	<p name="sbsTotal">4000</p>
+	<p name="sbtsName">BGO796_Baric_2</p>
+</managedObject>
+
+<managedObject class="ANTL" distName="SBTS-2092/ANTL-1/LCELC-2" operation="create" version="SBTS16.10">
+<p name="antennaConnector">a1</p>
+<p name="frRef">FR-1</p>
+<p name="ulDelay">u1</p>
+</managedObject>
+
+<managedObject class="ANTL" distName="SBTS-2092/ANTL-2/LCELC-2" operation="delete" version="SBTS16.10">
+<p name="antennaConnector">a2</p>
+<p name="frRef">FR-2</p>
+<p name="ulDelay">u2</p>
+</managedObject>
+
+<managedObject class="ANTL" distName="SBTS-2092/ANTL-22/LCELC-3" operation="create" version="SBTS17">
+<p name="antennaConnector">a3</p>
+<p name="frRef">FR-3</p>
+<p name="ulDelay">u3</p>
+	<list name="sbtsLocation">
+		<nesto name="gnf">
+			<item>
+			<p name="brzina">brzo ga nadje</p>
+			<p name="visina">antl na stubu</p>
+			</item>
+		</nesto>
+	</list>
+</managedObject>
+
+<!-- BGO796_Baric_2 staticke rute -->				
+<managedObject class="IPRT" distName="SBTS-2092/TNL-1/IPNO-1/IPRT-1" operation="create" version="SBTS16.10">				
+<list name="staticRoutes">				
+<item><p name="destIpAddr">10.15.205.0</p>	<p name="gateway">10.244.46.41</p>	<p name="destinationIpPrefixLength">24</p>	<p name="preSrcIpv4Addr">0.0.0.0</p>	<p name="preference">1</p></item>
+<item><p name="destIpAddr">10.253.0.0</p>	<p name="gateway">10.243.23.21</p>	<p name="destinationIpPrefixLength">16</p>	<p name="preSrcIpv4Addr">0.0.0.0</p>	<p name="preference">1</p></item>
+<item><p name="destIpAddr">172.21.6.16</p>	<p name="gateway">10.244.46.41</p>	<p name="destinationIpPrefixLength">30</p>	<p name="preSrcIpv4Addr">0.0.0.0</p>	<p name="preference">1</p></item>
+<item><p name="destIpAddr">0.0.0.0</p>		<p name="gateway">10.244.46.41</p>	<p name="destinationIpPrefixLength">0</p>	<p name="preSrcIpv4Addr">0.0.0.0</p>	<p name="preference">1</p></item>
+</list>				
+</managedObject>				
+
+<managedObject class="ANTL" distName="SBTS-klon/ANTL-1/LCELC-2" operation="create" version="SBTS16.10">
+<p name="antennaConnector">a1</p>
+<p name="frRef">FR-1</p>
+<p name="ulDelay">u1</p>
+</managedObject><managedObject class="IPRT" distName="BLA-12" version="FL212"/>
+<!--vrlo vazan parametar--><p name="ab">cd</p>
+
+<item><!--ruta levo--><p name="destIpAddr">qa</p>
+<p name="gateway">qz</p>
+<p name="destinationIpPrefixLength">cc</p>
+<p name="preSrcIpv4Addr">0.0.0.0</p>
+<p name="preference">1</p>
+</item>
+
+<!--sve moguce rute za nedodjiju-->
+<list name="staticRoutes">
+<item><!--ruta levo--><p name="destIpAddr">qa</p>
+<p name="gateway">qz</p>
+<p name="destinationIpPrefixLength">cc</p>
+<p name="preSrcIpv4Addr">0.0.0.0</p>
+<p name="preference">1</p>
+</item>
+
+<item><!--ruta desno--><p name="destIpAddr">xx</p>
+<p name="gateway">yy</p>
+<p name="destinationIpPrefixLength">zz</p>
+<p name="preSrcIpv4Addr">0.0.0.0</p>
+<p name="preference">1</p>
+</item>
+</list>
+<p name="DODZAJA">DZAJA DZAJA</p>
+</cmData>
+</raml>

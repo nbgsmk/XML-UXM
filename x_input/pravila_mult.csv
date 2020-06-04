@@ -1,0 +1,10 @@
+
+
+// excel kolona koja sadrzi ime sajta
+kolona A
+
+// kolona iz excel fajla ; putanja do odgovarajuceg radio parametra
+modul ;  class=ANTL / frRef
+port ;  class=ANTL / antennaConnector
+height ;  class=ANTL / sbtsLocation / visina
+
