@@ -11,18 +11,20 @@ In short terms, UXM is supposed to:
 
 - based on rules:
   - find appropriate fields in Excel
-  - modify that data if needed
+  - read their values and prepare appropriately
   - find destination element(s) in the original xml
-  - modify destination xml
+  - modify accordingly, applying data prepared from excel 
 
-- finally write output xml file
+- finally, write modified xml structure into output file
 
 
 Rules are:
 - specified in simple csv format
-- "one time" and "mult"
-  One time rules are applied only once from input excel to destination xml
-  Mult are applied from input excel to several elements in the destination xml
-  
+- "One time" - applied only once from input excel to destination xml.
+- "Mult" - applied from input excel to several elements in the destination xml. 
+- Unlimited length - there can be any number of rules.
+- Unlimited depth - xml structure can be nested and edited in depth without restrictions.
+
+
 
 
