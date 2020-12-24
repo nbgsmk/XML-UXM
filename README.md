@@ -23,7 +23,8 @@ Rules are:
 - "One time" - applied only once from input excel to destination xml.
 - "Mult" - applied from input excel to several elements in the destination xml. 
 - Unlimited length - there can be any number of rules.
-- Unlimited depth - xml structure can be nested and edited in depth without restrictions.
+- Unlimited depth - xml structure can be nested and edited in depth without restrictions. The only restriction could be the memory and capability of the DOM processor.
+
 
 
 
