@@ -10,10 +10,10 @@ In short terms, UXM is supposed to:
 - read input xml (original to be edited)
 
 - based on rules:
-  find appropriate fields in Excel
-  modify that data if needed
-  find destination element(s) in the original xml
-  modify destination xml
+  - find appropriate fields in Excel
+  - modify that data if needed
+  - find destination element(s) in the original xml
+  - modify destination xml
 
 - finally write output xml file
 
