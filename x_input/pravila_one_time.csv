@@ -2,7 +2,7 @@
 			// komentar ne mora da pozinje na pocetku linije
 
 // max 1 csv polje
-// excel kolona koja sadrzi ime sajta
+// koja kolona u Excelu sadrzi ime sajta? Daje se NAZIV tj TEKST IZ KOLONE (a ne A1, C3...)
 siteNameColumn=SITE_NAME
 
 
